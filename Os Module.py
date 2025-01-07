@@ -42,6 +42,7 @@ os.system("./my_script.sh")
 #To check if directory/file exists in current working directory
 print(os.path.exists(r'C:\Users\ky\Desktop\Test'))
 print(os.path.isfile(r"C:\Users\ky\Desktop\Test\Nolan Performance testing\View Results Tree.jmx"))
+print(os.path.isdir(r"C:\Users\ky\Desktop\Test\Nolan Performance testing"))
 
 #To get the environment variables
 print(os.environ.get('PATH'))
